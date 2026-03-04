@@ -18,11 +18,21 @@ body {
         position: relative;
         overflow: hidden;
     }
-    .header h1{
+    /* .header h1{
         font-size:48px;
         letter-spacing:1px;
         color:#969090;
-    }   
+    }    */
+    .header h1{
+        font-size:52px;
+        font-weight:700;
+        letter-spacing:1px;
+        color:black;
+    
+        text-shadow:
+            0 2px 4px rgba(0,0,0,0.25),
+            0 6px 12px rgba(0,0,0,0.15);
+    }
         
     .header p{
     font-size:20px;
@@ -62,7 +72,7 @@ body {
     
     h2 {
     text-align:center;
-    color:#D5C5E0;
+    color:#C6A5F1;
     }
     
     .authors {
