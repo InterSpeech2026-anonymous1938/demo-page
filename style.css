@@ -86,13 +86,14 @@ body {
     margin-top:20px;
     }
     
-    th, td {
-    padding:10px;
+    td, th{
+    padding:12px 10px;
     text-align:center;
     }
     
-    audio {
-    width:200px;
+    audio{
+    width:100%;
+    max-width:220px;
     }
 
 
@@ -113,13 +114,14 @@ body {
     }
 
 
-    .sample-label{
-    font-weight:600;
-    text-align:left;
-    }
-
     .sample-text{
     font-size:14px;
     color:#666;
-    padding-bottom:6px;
+    padding-top:6px;
+    }
+    
+    .sample-label{
+    font-weight:600;
+    text-align:left;
+    padding-right:20px;
     }
