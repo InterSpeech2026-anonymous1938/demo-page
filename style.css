@@ -92,9 +92,8 @@ body {
     }
     
     audio{
-    width:100%;
-    transform:scale(0.9);
-    transform-origin:center;
+    width:240px;
+    min-width:240px;
     }
 
 
