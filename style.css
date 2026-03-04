@@ -111,3 +111,15 @@ body {
     position: relative;
     z-index:1;
     }
+
+
+    .sample-label{
+    font-weight:600;
+    text-align:left;
+    }
+
+    .sample-text{
+    font-size:14px;
+    color:#666;
+    padding-bottom:6px;
+    }
