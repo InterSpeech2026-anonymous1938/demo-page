@@ -21,11 +21,13 @@ body {
     .header h1{
         font-size:48px;
         letter-spacing:1px;
+        color:#969090;
     }   
         
     .header p{
     font-size:20px;
     opacity:0.9;
+    color:white;
     }
     
     .links {
@@ -60,7 +62,7 @@ body {
     
     h2 {
     text-align:center;
-    color:#4caf50;
+    color:#D5C5E0;
     }
     
     .authors {
