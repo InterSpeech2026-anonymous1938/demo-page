@@ -90,34 +90,64 @@ that improves similarity for speakers unseen in training.
 <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 
 <script>
-particlesJS("particles-js", {
-  particles: {
-    number: { value: 60 },
-    color: { value: "#ffffff" },
-    line_linked: {
-      enable: true,
-      distance: 150,
-      color: "#ffffff",
-      opacity: 0.4
-    },
-    move: {
-      enable: true,
-      speed: 2
-    }
-  },
-  interactivity: {
-    events: {
-      onhover: { enable: true, mode: "grab" }
-    },
-    modes: {
-      grab: {
-        distance: 140,
-        line_linked: { opacity: 1 }
-      }
-    }
-  }
-});
-</script>
+    particlesJS("particles-js", {
+      particles: {
+        number: {
+          value: 70,
+          density: { enable: true, value_area: 800 }
+        },
+    
+        color: { value: "#ffffff" },
+    
+        shape: { type: "circle" },
+    
+        opacity: {
+          value: 0.5,
+          random: true
+        },
+    
+        size: {
+          value: 2,          // ← 점 크기 (작게)
+          random: true
+        },
+    
+        line_linked: {
+          enable: true,
+          distance: 120,
+          color: "#ffffff",
+          opacity: 0.2,
+          width: 1
+        },
+    
+        move: {
+          enable: true,
+          speed: 1.2
+        }
+      },
+    
+      interactivity: {
+        detect_on: "canvas",
+    
+        events: {
+          onhover: {
+            enable: true,
+            mode: "grab"     // ← 마우스 근처에서만 선 연결
+          }
+        },
+    
+        modes: {
+          grab: {
+            distance: 120,   // ← 마우스 근처에서만
+            line_linked: {
+              opacity: 0.8
+            }
+          }
+        }
+      },
+    
+      retina_detect: true
+    });
+    </script>
 
 </body>
 </html>
