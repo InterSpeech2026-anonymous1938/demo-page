@@ -4,11 +4,28 @@ body {
     background: #f5f5f5;
     }
     
-    .header {
+    /* .header {
     background: linear-gradient(90deg,#3b6ea5,#4caf50);
     color: white;
     text-align: center;
     padding: 80px 20px;
+    } */
+    .header {
+        background: linear-gradient(90deg,#FF9898,#D5C5E0,#8FB6FF);
+        color: white;
+        text-align: center;
+        padding: 80px 20px;
+        position: relative;
+        overflow: hidden;
+    }
+    .header h1{
+        font-size:48px;
+        letter-spacing:1px;
+    }   
+        
+    .header p{
+    font-size:20px;
+    opacity:0.9;
     }
     
     .links {
@@ -29,9 +46,16 @@ body {
     background:white;
     padding:40px;
 
-    border-radius:12px;              /* 둥근 모서리 */
-    box-shadow:0 8px 30px rgba(0,0,0,0.12);  /* 입체 그림자 */
-    border:1px solid rgba(0,0,0,0.05);  /* 얇은 테두리 */
+    border-radius:16px;
+    box-shadow:0 20px 60px rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.04);
+
+    transition:all 0.25s ease;
+    }
+
+    .container:hover{
+    transform:translateY(-6px);
+    box-shadow:0 30px 80px rgba(0,0,0,0.2);
     }
     
     h2 {
@@ -59,14 +83,7 @@ body {
     width:200px;
     }
 
-.header {
-    background: linear-gradient(90deg,#FF9898,#D5C5E0,#8FB6FF);
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
-    position: relative;
-    overflow: hidden;
-    }
+
     
     #particles-js {
     position: absolute;
