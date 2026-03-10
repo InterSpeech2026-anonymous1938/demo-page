@@ -52,7 +52,7 @@ body {
     
         pointer-events: none;
     }
-    
+
     .header h1{
         font-size:52px;
         font-weight:700;
@@ -84,9 +84,11 @@ body {
     
     .container {
     max-width:1200px;   
-    margin:60px auto;
+    /* margin:60px auto; */
+    margin:0 auto;
     background:white;
-    padding:40px;
+    /* padding:40px; */
+    padding-top:60px;
 
     border-radius:16px;
     box-shadow:0 20px 60px rgba(0,0,0,0.15);
@@ -154,4 +156,35 @@ body {
     font-weight:600;
     text-align:left;
     padding-right:20px;
+    }
+
+
+
+
+    
+    .framework-figure{
+        display:flex;
+        justify-content:center;
+        margin-top:40px;
+    }
+    
+    .framework-figure img{
+        width:100%;
+        max-width:900px;
+    
+        border-radius:20px;
+    
+        box-shadow:0 25px 60px rgba(0,0,0,0.18);
+    
+        opacity:0;
+        transform:translateY(40px);
+    
+        animation:fadeUp 1.2s ease forwards;
+    }
+    
+    @keyframes fadeUp{
+        to{
+            opacity:1;
+            transform:translateY(0);
+        }
     }
