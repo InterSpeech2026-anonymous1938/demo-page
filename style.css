@@ -5,8 +5,8 @@ body {
     background: linear-gradient(
     180deg,
     #D5C5E0 0%,   /* header 가운데 색 (보라) */
-    #E6D8F0 25%,
-    #EEDFF4 45%,
+    #E6D8F0 20%,
+    #F4C6D0 40%,
     #E3ECFF 65%,
     #f5f5f5 85%
     );
