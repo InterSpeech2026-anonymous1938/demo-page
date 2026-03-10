@@ -132,24 +132,36 @@ body {
     .framework-figure{
         display:flex;
         justify-content:center;
-        margin-top:40px;
+        margin-top:50px;
     }
     
     .framework-figure img{
-        width:100%;
-        max-width:900px;
+    
+        width:90%;
+        max-width:950px;
     
         border-radius:20px;
     
-        box-shadow:0 25px 60px rgba(0,0,0,0.18);
+        box-shadow:0 20px 60px rgba(0,0,0,0.18);
     
         opacity:0;
         transform:translateY(40px);
     
         animation:fadeUp 1.2s ease forwards;
+    
+        transition:transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .framework-figure img:hover{
+        transform:translateY(-6px) scale(1.01);
+        box-shadow:0 35px 80px rgba(0,0,0,0.25);
     }
     
     @keyframes fadeUp{
+        from{
+            opacity:0;
+            transform:translateY(40px);
+        }
         to{
             opacity:1;
             transform:translateY(0);
