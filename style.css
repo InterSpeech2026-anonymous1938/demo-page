@@ -4,9 +4,9 @@ body {
 
     background: linear-gradient(
     180deg,
-    #8FB6FF 0%,   
-    #EED4E4 25%,
-    #E6D8F0 45%,
+    #D5C5E0 0%,   /* header 가운데 색 (보라) */
+    #E6D8F0 25%,
+    #EEDFF4 45%,
     #E3ECFF 65%,
     #f5f5f5 85%
     );
