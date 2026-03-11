@@ -125,7 +125,6 @@ body {
     } */
     table{
         width:100%;
-        table-layout:fixed;
         border-collapse:collapse;
         margin-top:30px;
     
@@ -217,8 +216,9 @@ body {
     
     .sample-label{
     font-weight:600;
-    text-align:left;
+    text-align:center;
     padding-right:20px;
+    width:70px;
     }
 
     .error{
