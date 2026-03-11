@@ -225,6 +225,9 @@ body {
         font-weight:600;
     }
 
+    .nowrap{
+        white-space: nowrap;
+      }
 
     .audio-note{
         text-align:center;
